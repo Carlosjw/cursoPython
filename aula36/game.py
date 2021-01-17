@@ -29,7 +29,7 @@ while True:
             secreto_temporario += '*'  # Substituindo letra errada por asterisco
 
     if secreto_temporario == secreto:  # Verificando se variável gerada é igual a matrix
-        print(f'Que legal! VOCÊ GANHOU! A palavra secreta era {secreto_temporario}')
+        print(f'Que legal! VOCÊ GANHOU! A palavra secreta era {secreto_temporario}.')
         break
     else:
         print(f'A palavra secreta está assim: {secreto_temporario}')
