@@ -17,3 +17,8 @@ lista = [
 for indice, valor in enumerate(lista):  # Desempacotamento de lista
     print(indice, valor)
 
+lista2 = ['Luiz', 'Maria', 'João']
+
+n1, n2, n3 = lista2  # Desempacotando os valores da lista2 em varáveis independentes
+
+print(n2)

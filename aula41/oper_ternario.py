@@ -19,13 +19,13 @@ print(msg)
 # PADRÃO
 idade = input('Qual a sua idade? ')
 
-if int(idade) >= 18:
-    print('Pode acessar.')
-else:
-    print('Não pode acessar.')
+# if int(idade) >= 18:
+#     print('Pode acessar.')
+# else:
+#     print('Não pode acessar.')
 
 # SIMPLIFICANDO (OPERADOR TERNARIO):
-if not idade.isdigit():
+if not idade.isnumeric():
     print('Você precisa digitar apenas números!')
 else:
     idade = int(idade)
